@@ -8,7 +8,7 @@ This repository contains the implementation of the paper:
 
 [Link]() to the arXiv version of the paper will be available soon.
 
-<img src="pics/overview.png" width="550">
+<img src="pics/overview.png" width="800">
 
 Pipeline overview of SuperFusion. Our method fuses camera and LiDAR data in three levels: the data-level fusion fuses depth information from LiDAR to improve the accuracy of image depth estimation, the feature-level fusion uses cross-attention for long-range LiDAR BEV feature prediction with the guidance of image features, and the BEV-level fusion aligns two branches to generate high-quality fused BEV features. Finally, the fused BEV features can support different heads, including semantic segmentation, instance embedding, and direction prediction, and finally post-processed to generate the HD map prediction.
 
@@ -19,4 +19,4 @@ High-definition (HD) semantic map generation of the environment is an essential 
 Coming soon!
 
 ## Long-range HD map generation on nuScenes dataset
-<img src="pics/results.png" width="550">
+<img src="pics/results.png" width="800">
