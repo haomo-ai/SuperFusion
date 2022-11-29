@@ -6,7 +6,7 @@ This repository contains the implementation of the paper:
 
 [Hao Dong](https://sites.google.com/view/dong-hao/), Xianjing Zhang, Xuan Jiang, Jun Zhang, Jintao Xu, Rui Ai, Weihao Gu, Huimin Lu, [Juho Kannala](https://users.aalto.fi/~kannalj1/) and [Xieyuanli Chen](http://xieyuanli-chen.com/) 
 
-[Link]() to the arXiv version of the paper will be available soon.
+[Link](https://arxiv.org/abs/2211.15656) to the arXiv version of the paper is available.
 
 <img src="pics/overview.png" width="800">
 
@@ -20,3 +20,14 @@ Coming soon!
 
 ## Long-range HD map generation on nuScenes dataset
 <img src="pics/results.png" width="800">
+
+## Citation
+If you use our implementation in your academic work, please cite the corresponding [paper](https://arxiv.org/abs/2211.15656):
+
+	@article{dong2022SuperFusion,
+	author   = {Hao Dong and Xianjing Zhang and Xuan Jiang and Jun Zhang and Jintao Xu and Rui Ai and Weihao Gu and Huimin Lu and Juho Kannala and Xieyuanli Chen},
+	title    = {{SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation and Prediction}},
+	journal  = arxiv,
+	eprint   = {2211.15656},
+	year     = {2022},
+	}
