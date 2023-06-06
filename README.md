@@ -25,11 +25,11 @@ Coming soon!
 
 ## Citation
 If you use our implementation in your academic work, please cite the corresponding [paper](https://arxiv.org/abs/2211.15656):
-
-	@article{dong2022SuperFusion,
-		author   = {Hao Dong and Xianjing Zhang and Jintao Xu and Rui Ai and Weihao Gu and Huimin Lu and Juho Kannala and Xieyuanli Chen},
-		title    = {{SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation}},
-		journal  = arxiv,
-		eprint   = {2211.15656},
-		year     = {2022},
-	}
+```
+@article{dong2022SuperFusion,
+	author   = {Hao Dong and Xianjing Zhang and Jintao Xu and Rui Ai and Weihao Gu and Huimin Lu and Juho Kannala and Xieyuanli Chen},
+	title    = {{SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation}},
+	journal  = {arXiv preprint arXiv:2211.15656},
+	year     = {2022},
+}
+```
