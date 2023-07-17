@@ -1,0 +1,10 @@
+torch==1.11.0+cu115
+torchvision==0.12.0+cu115
+kornia==0.6.7
+numpy==1.21.5
+tensorboardX==2.5
+Pillow==9.1.0
+pyquaternion==0.9.9
+nuscenes-devkit==1.1.9
+inplace_abn==1.1.0
+torch-scatter==2.0.9
