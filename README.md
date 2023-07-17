@@ -21,11 +21,14 @@ High-definition (HD) semantic map generation of the environment is an essential 
 ### Prepare
 1. Download [nuScenes dataset](https://www.nuscenes.org/) (Full dataset and Map expansion) and unzip files. The folder should be like
 <img src="pics/dataset.png" width="200">
+
 2. Install dependencies by running
 ```
 pip install -r requirement.txt
 ```
+
 3. Download the pretrained [DeepLabV3 model](https://download.pytorch.org/models/deeplabv3_resnet101_coco-586e9e4e.pth) and place within the `checkpoints` directory
+   
 4. Download the pretrained [SuperFusion model](https://drive.google.com/file/d/1UTgughJ71Rn0zPUDTXFo__HJS-57lwNG/view?usp=sharing) and place within the `runs` directory
    
 ### Training
