@@ -83,7 +83,7 @@ def main(args):
     train_loader, val_loader = semantic_dataset(
         args.version, args.dataroot, data_conf, args.bsz, args.nworkers, depth_downsample_factor=args.depth_downsample_factor, depth_sup=args.depth_sup, use_depth_enc=args.use_depth_enc, use_depth_enc_bin=args.use_depth_enc_bin, add_depth_channel=args.add_depth_channel,use_lidar_10=args.use_lidar_10)
     model = get_model(args.model, data_conf, args.instance_seg, args.embedding_dim,
-                      args.direction_pred, args.angle_class, downsample=args.depth_downsample_factor, use_depth_enc=args.use_depth_enc, pretrained=args.pretrained, lidar_pred=args.lidar_pred, use_cross=args.use_cross, add_depth_channel=args.add_depth_channel,add_fuser=args.add_fuser, add_fuser_AlignFA=args.add_fuser_AlignFA, add_fuser_AlignFAnew=args.add_fuser_AlignFAnew,add_fuser2=args.add_fuser2)
+                      args.direction_pred, args.angle_class, downsample=args.depth_downsample_factor, use_depth_enc=args.use_depth_enc, pretrained=args.pretrained, add_depth_channel=args.add_depth_channel,add_fuser=args.add_fuser)
     
     if args.model == 'HDMapNet_fusion' or args.model == 'HDMapNet_cam':
         model.load_state_dict(torch.load(args.modelf), strict=False)
