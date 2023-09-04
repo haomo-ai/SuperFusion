@@ -8,3 +8,4 @@ pyquaternion==0.9.9
 nuscenes-devkit==1.1.9
 inplace_abn==1.1.0
 torch-scatter==2.0.9
+shapely==1.8.1
