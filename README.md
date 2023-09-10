@@ -48,9 +48,24 @@ python export_pred_to_json.py --dataroot /path/to/nuScenes/ --modelf runs/model.
 ```
 python evaluate_json_split.py --result_path output.json --dataroot /path/to/nuScenes/
 ```
-
+### Visualization
+```
+python vis_prediction.py --modelf runs/model.pt --instance_seg --direction_pred --depth_sup --pretrained --add_depth_channel --version v1.0-trainval --dataroot /path/to/nuScenes/
+```
 ## Long-range HD map generation on nuScenes dataset
 <img src="pics/results.png" width="800">
+
+## Instance detection results on nuScenes dataset.
+<img src="pics/nuScenes_ap.png" width="800">
+
+## More examples of self-recorded dataset
+<img src="pics/haomo_data.png" width="500">
+
+## Long-range HD map generation on self-recorded dataset
+<img src="pics/haomo_results.png" width="800">
+
+## Instance detection results on self-recorded dataset.
+<img src="pics/haomo_ap.png" width="800">
 
 ## Citation
 If you use our implementation in your academic work, please cite the corresponding [paper](https://arxiv.org/abs/2211.15656):
