@@ -50,6 +50,9 @@ python evaluate_json_split.py --result_path output.json --dataroot /path/to/nuSc
 ```
 ### Visualization
 ```
+python vis_prediction_gt.py --instance_seg --direction_pred --dataroot /path/to/nuScenes/
+```
+```
 python vis_prediction.py --modelf runs/model.pt --instance_seg --direction_pred --depth_sup --pretrained --add_depth_channel --version v1.0-trainval --dataroot /path/to/nuScenes/
 ```
 ## Long-range HD map generation on nuScenes dataset
