@@ -142,7 +142,7 @@ if __name__ == '__main__':
     parser.add_argument("--zbound", nargs=3, type=float,
                         default=[-10.0, 10.0, 20.0])
     parser.add_argument("--dbound", nargs=3, type=float,
-                        default=[2.0, 9.0, 1.0])
+                        default=[2.0, 90.0, 1.0])
 
     # embedding config
     parser.add_argument('--instance_seg', action='store_true')
