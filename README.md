@@ -1,6 +1,6 @@
 # SuperFusion
 
-This repository contains the implementation of the paper:
+This repository contains the implementation of the ICRA 2024 paper:
 
 **SuperFusion: Multilevel LiDAR-Camera Fusion for Long-Range HD Map Generation**
 
