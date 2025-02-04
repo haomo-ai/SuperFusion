@@ -8,6 +8,8 @@ This repository contains the implementation of the ICRA 2024 paper:
 
 [Link](https://arxiv.org/abs/2211.15656) to the arXiv version of the paper is available.
 
+**Update**: We have a new survey paper on [Multimodal Adaptation and Generalization](https://arxiv.org/abs/2501.18592)
+
 <img src="pics/overview.png" width="800">
 
 Pipeline overview of SuperFusion. Our method fuses camera and LiDAR data in three levels: the data-level fusion fuses depth information from LiDAR to improve the accuracy of image depth estimation, the feature-level fusion uses cross-attention for long-range LiDAR BEV feature prediction with the guidance of image features, and the BEV-level fusion aligns two branches to generate high-quality fused BEV features. Finally, the fused BEV features can support different heads, including semantic segmentation, instance embedding, and direction prediction, and finally post-processed to generate the HD map prediction.
@@ -80,6 +82,18 @@ If you use our implementation in your academic work, please cite the correspondi
 	year     = {2022},
 }
 ```
+
+## Related Projects
+
+[SimMMDG](https://github.com/donghao51/SimMMDG): SimMMDG: A Simple and Effective Framework for Multi-modal Domain Generalization
+
+[MOOSA](https://github.com/donghao51/MOOSA): Towards Multimodal Open-Set Domain Generalization and Adaptation through Self-supervision
+
+[AEO](https://github.com/donghao51/AEO): Towards Robust Multimodal Open-set Test-time Adaptation via Adaptive Entropy-aware Optimization
+
+[Survey](https://github.com/donghao51/Awesome-Multimodal-Adaptation): Advances in Multimodal Adaptation and Generalization: From Traditional Approaches to Foundation Models
+
+[MultiOOD](https://github.com/donghao51/MultiOOD): Scaling Out-of-Distribution Detection for Multiple Modalities
 
 ## Acknowledgement
 
